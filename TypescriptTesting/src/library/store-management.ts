@@ -1,6 +1,6 @@
-import { stores } from './data/stores';
-import { Store } from './models/store';
-import { Order } from './models/order';
+import { stores } from '../data/stores';
+import { Store } from '../models/store';
+import { Order } from '../models/order';
 
 export class StoreManagement {
     stores: Store[];
